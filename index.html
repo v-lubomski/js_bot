@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My telegram bot</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="token.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Список сообщений</h3>
+        <div id="msgList">
+            <div class="message" id="">
+                Text textText text Text textText text Text text
+            </div>
+            <div class="message" id="">
+                Text textText text Text textText text Text textxt textText text Text textText text Text text
+            </div>
+            <div class="message" id="">
+                TetextText text Text textxt textText text Text textText text Text text
+            </div>
+
+        </div>
+        <form>
+            <textarea id="newMessage" class="textarea" placeholder="Здесь можно написать ответ на последнее сообщение"></textarea>
+            <input type="button" id="sendMessage" value="Отправить ответ на последнее сообщение">
+        </form>
+
+        <br>
+        <br>
+        <h3>Сырые данные обновлений</h3>
+        <div id="rawData" class="message">
+
+        </div>
+    </div>
+</body>
+</html>
